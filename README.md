@@ -6,7 +6,7 @@ Título: [none]
 
 ### Objetivo
 
-???????????
+Estabelecer um meio de comunicação on-line entre o cliente final, que vai pedir um evento, e a agência, que irá organizar o evento e preparar o mesmo
 
 ![Passos da venda de um Evento](plus/passos-agencia.png)
 
