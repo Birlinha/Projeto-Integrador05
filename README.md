@@ -36,4 +36,3 @@ Criar uma interface de comunicação entre o cliente final e a Agência
     *Compra/Produção das artes do evento,
     *Logística e Cronogramas,
     *Alterações de cronograma, atualizações, etc.
-    *
