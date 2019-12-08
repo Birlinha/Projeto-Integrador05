@@ -6,7 +6,7 @@ Título: [none]
 
 ### Objetivo
 
-Criar uma interface de comunicação entre o cliente final e a Agência 
+???????????
 
 ![Passos da venda de um Evento](plus/passos-agencia.png)
 
