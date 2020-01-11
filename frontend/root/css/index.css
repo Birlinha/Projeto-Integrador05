@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 span {
     font-size: x-large;
     font-weight: 700;
@@ -16,6 +19,10 @@ header div div img {
 
 header div#navbar {
     width: auto;
+}
+
+footer div div img{
+    width: 50%;
 }
 
 
