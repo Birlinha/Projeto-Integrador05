@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+span {
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+}
+
+header div div.media {
+    background-color: rgba(124, 124, 124,1);
+    border-radius: 0;
+}
+
+header div div img {
+    background-color: rgba(124, 124, 124,1);
+    padding: 0 40%;
+    min-height: 40px;
+    max-height: 88px;
+}
+
+header div#navbar {
+    width: auto;
+}
+
+footer div div img{
+    width: 50%;
+}
+
+
+/* rgba(70, 46, 102, 0.863); */
+main div a {
+    border-radius: 50px;}
+a.hoverer:hover  {
+    background-color: rgba(27, 170, 253, 0.795)}
+
+main div a div span {
+    display: none;
+}
+
+@media only screen and (min-width:1275px) {
+    header div div img {
+        padding: 0 44%;
+    }
+
+    main div a div span {
+        display: inline-block;
+    }
+}
