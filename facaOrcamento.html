@@ -1,11 +1,13 @@
 <html lang="en" dir="ltr"><head>
   <meta charset="utf-8">
   <title>Faça seu Orçamento!</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="budget-body">
+
   <header>
     <div class="logo-content">
       <img src="img/logo.png" class="logo" alt="logo do site">
@@ -19,11 +21,211 @@
         <li><a href="contato.html">Contato</a></li>
         <li><a href="facaOrcamento.html">Faça seu orçamento</a></li>
         <li><a href="sejaParceiro.html">Seja um parceiro</a></li>
+        <form>
+          <input type="text" name="busca" placeholder="Digite a sua busca">
+          <button>Buscar</button>
+        </form>
       </ul>
     </div>
   </header>
 
-  <div class="budget-content">
+  <br>
+  <br>
+  <br>
+  <br>
+
+	<div class="container lado-lado">
+		<aside>
+			<div class="asideItem">
+				<label for="servicos">Serviços</label>
+				<select name="servicos" id="servicos" multiple>
+					<option value="saloes">Salões</option>
+					<option value="bebidas">Bebidas</option>
+					<option value="buffet">Buffet</option>
+					<option value="garcons">Garçons</option>
+					<option value="seguranca">Segurança</option>
+					<option value="dj">DJ</option>
+					<option value="iluminacao">Iluminação</option>
+					<option value="som">Som</option>
+				</select>
+			</div>
+
+			<div class="asideItem">
+				<label for="regiao">Região</label>
+				<select name="regiao" id="regiao" multiple>
+          <option value="Brooklin">Brooklin</option>
+          <option value="Guarulhos">Guarulhos</option>
+					<option value="Moema">Moema</option>
+          <option value="Osasco">Osasco</option>
+          <option value="Penha">Penha</option>
+					<option value="VilaOlimpia">Vila Olímpia</option>
+  			</select>
+			</div>
+
+			<div class="asideItem">
+				<label>Valores</label>
+				<div class="listaDeCheckboxes">
+					<div>
+						<input type="checkbox" name="valor100" id="valor100">
+						<label for="valor100">Até R$ 100,00</label>
+					</div>
+					<div>
+						<input type="checkbox" name="valor200" id="valor200">
+						<label for="valor200">Até R$ 200,00</label>
+					</div>
+					<div>
+						<input type="checkbox" name="valor500" id="valor500">
+						<label for="valor500">Até R$ 500,00</label>
+					</div>
+					<div>
+						<input type="checkbox" name="valor1000" id="valor1000">
+						<label for="valor1000">Até R$ 1.000,00</label>
+					</div>
+				</div>
+      </div>
+      <form>
+        <button>Encontre Já!</button>
+      </form>
+		</aside>
+		<main>
+      
+      
+
+			<div class="produto">
+				<h3>Produto 1</h3>
+				<p>Uma breve descrição do produto</p>
+				<img src="img/home-salao.jpg" alt="Imagem do produto">
+
+				<div class="info-preco">
+					<span class="preco">R$ 150,00</span>
+					<span class="parcelamento">
+						Ou
+						<span>3x</span>
+						de 
+						<span>50,00</span>
+					</span>
+				</div>
+
+				<div class="controles">
+					<a class="favoritarBt">
+						<i class="material-icons">favorite</i>
+						Favorito
+					</a>
+					<a class="comprarBt">
+						<i class="material-icons">attach_money</i>
+						Comprar
+					</a>
+				</div>
+			</div>
+			<div class="produto">
+					<h3>Produto 2</h3>
+					<p>Uma breve descrição do produto</p>
+					<img src="img/home-bebidas.jpg" alt="Imagem do produto">
+	
+					<div class="info-preco">
+						<span class="preco">R$ 150,00</span>
+						<span class="parcelamento">
+							Ou
+							<span>3x</span>
+							de 
+							<span>50,00</span>
+						</span>
+					</div>
+	
+					<div class="controles">
+						<a class="favoritarBt">
+							<i class="material-icons">favorite</i>
+							Favorito
+						</a>
+						<a class="comprarBt">
+							<i class="material-icons">attach_money</i>
+							Comprar
+						</a>
+					</div>
+			</div>
+			<div class="produto">
+				<h3>Produto 3</h3>
+				<p>Uma breve descrição do produto</p>
+				<img src="img/home-buffet.jpg" alt="Imagem do produto">
+
+				<div class="info-preco">
+					<span class="preco">R$ 150,00</span>
+					<span class="parcelamento">
+						Ou
+						<span>3x</span>
+						de 
+						<span>50,00</span>
+					</span>
+				</div>
+
+				<div class="controles">
+					<a class="favoritarBt">
+						<i class="material-icons">favorite</i>
+						Favorito
+					</a>
+					<a class="comprarBt">
+						<i class="material-icons">attach_money</i>
+						Comprar
+					</a>
+				</div>
+			</div>
+			<div class="produto">
+				<h3>Produto 4</h3>
+				<p>Uma breve descrição do produto</p>
+				<img src="img/home-garcom.jpg" alt="Imagem do produto">
+
+				<div class="info-preco">
+					<span class="preco">R$ 150,00</span>
+					<span class="parcelamento">
+						Ou
+						<span>3x</span>
+						de 
+						<span>50,00</span>
+					</span>
+				</div>
+
+				<div class="controles">
+					<a class="favoritarBt">
+						<i class="material-icons">favorite</i>
+						Favorito
+					</a>
+					<a class="comprarBt">
+						<i class="material-icons">attach_money</i>
+						Comprar
+					</a>
+				</div>
+			</div>
+			<div class="produto">
+				<h3>Produto 5</h3>
+				<p>Uma breve descrição do produto</p>
+				<img src="img/home-dj.jpg" alt="Imagem do produto">
+
+				<div class="info-preco">
+					<span class="preco">R$ 150,00</span>
+					<span class="parcelamento">
+						Ou
+						<span>3x</span>
+						de 
+						<span>50,00</span>
+					</span>
+				</div>
+
+				<div class="controles">
+					<a class="favoritarBt">
+						<i class="material-icons">favorite</i>
+						Favorito
+					</a>
+					<a class="comprarBt">
+						<i class="material-icons">attach_money</i>
+						Comprar
+					</a>
+				</div>
+			</div>																																			
+		</main>
+	</div>
+
+
+  <!-- <div class="budget-content">
     <div class="budget-title">
       <h1>Encontre aqui!</h1>
     </div>
@@ -42,7 +244,7 @@
         <button type="submit" name="button">Procurar</button>
       </div>
     </form>
-  </div>
+  </div> -->
 
   <footer>
     <p>Copyright © Eventos Já!</p>
