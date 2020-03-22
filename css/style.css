@@ -20,16 +20,24 @@
     background-size: cover;
   }
 
+<<<<<<< HEAD
   /* body.budget-body {
     background-image: url('../img/orcamento-banner.jpg');
     background-size: cover;
   } */
+=======
+  body.budget-body {
+    background-image: url('../img/orcamento-banner.jpg');
+    background-size: cover;
+  }
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
 
   body.partner-body {
     background-image: url('../img/partner-banner.jpg');
     background-size: cover;
   }
   
+<<<<<<< HEAD
   nav {
     border-top:1px solid #CCC;
     border-bottom:1px solid #CCC;
@@ -171,10 +179,13 @@
     color: #666;
   }
 
+=======
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
   /* -- General Area End -- */
   
   /* -- Header Area Begin -- */
   
+<<<<<<< HEAD
   header form{
 		display: flex;
 	}
@@ -191,6 +202,8 @@
 		color:#666;
   }
 
+=======
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
   header a {
     text-decoration: none;
     color: #000;
@@ -219,7 +232,11 @@
   }
   
   header .logo-content img {
+<<<<<<< HEAD
     width: 9%;
+=======
+    width: 11%;
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
   }
   
   header .container {
@@ -242,7 +259,11 @@
     color: purple;
     display: none;
   }
+<<<<<<< HEAD
       
+=======
+  
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
   /* -- Header Area End -- */
   
   /* -- Home Area Begin -- */
@@ -340,12 +361,15 @@
     background-color: #5f4a90;
   }
   
+<<<<<<< HEAD
   div form button{
 		border: 1px solid #CCC;
 		padding: 10px 20px;
 		color:#666;
   }
 
+=======
+>>>>>>> bf86c5de30e2903f546474e9aa31574361c0e1dd
   /* -- All Buttons End -- */
   
   /* -- Footer Area Begin -- */
